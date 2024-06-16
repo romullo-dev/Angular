@@ -5,6 +5,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import {MatButtonModule} from '@angular/material/button'; 
 import {MatCardModule} from '@angular/material/card'; 
 import {MatToolbarModule} from '@angular/material/toolbar'; 
+import { MatIconModule } from "@angular/material/icon";
+import { MatDividerModule } from "@angular/material/divider";
 
 
 import { AppRoutingModule } from './app-routing.module';
@@ -27,7 +29,9 @@ import { RodapeComponent } from './rodape/rodape.component';
     AppRoutingModule,
     MatButtonModule,
     MatCardModule,
-    MatToolbarModule
+    MatToolbarModule,
+    MatIconModule,
+    MatDividerModule
   ],
   providers: [],
   bootstrap: [AppComponent]
